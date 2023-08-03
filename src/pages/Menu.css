@@ -1,0 +1,17 @@
+a:hover{
+    background-color: aqua;
+}
+a{
+    text-decoration:none;
+}
+.nav-link{
+    /* background-color:blue; */
+    display:block;
+    transition:var(--transition-default);
+}
+.nav-link.active{
+    background-color:blue;
+}
+a:focus{
+    background-color:pink;
+}
